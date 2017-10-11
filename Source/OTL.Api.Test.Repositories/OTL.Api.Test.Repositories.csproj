@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OTL.Api.Test.Contracts\OTL.Api.Test.Contracts.csproj" />
+    <ProjectReference Include="..\OTL.Api.Test.Models\OTL.Api.Test.Models.csproj" />
+  </ItemGroup>
+
+</Project>
